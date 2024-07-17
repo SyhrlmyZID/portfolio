@@ -7,14 +7,11 @@
 3- Header Area CSS
 4- Home Area CSS
 5- About Area CSS
-6- Qualification Area CSS 
-7- Services Area CSS
-8- Portfolio Area CSS
-9- Testimonials Area CSS
-10- Blog Area CSS
-11- Contact Area CSS
-12- Footer Area CSS
-13- Scroll-Top Area CSS
+6- Services Area CSS
+7- Project Area CS
+8- Contact Area CSS
+9- Footer Area CSS
+10- Scroll-Top Area CSS
 
 */
 
@@ -157,7 +154,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 5%;
+    padding: 3rem 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -259,7 +256,7 @@ header #menu-btn:hover{
 .home .image img{
     height: 40rem;
     width: 40rem;
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
+    border: 1px solid #ca1f1f;
     object-fit:cover;
 }
 
@@ -333,7 +330,7 @@ header #menu-btn:hover{
 
 .about .image img{
     width: 100%;
-    border: 1rem solid var(--purple);
+    border: 0.1rem solid var(--purple);
 }
 
 .about .content{
@@ -481,15 +478,15 @@ header #menu-btn:hover{
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{
-    width:90%;
-}
-
- .skill-item.item1 .box:nth-child(2) .progress-bar span{
     width:80%;
 }
 
+ .skill-item.item1 .box:nth-child(2) .progress-bar span{
+    width:60%;
+}
+
  .skill-item.item1 .box:nth-child(3) .progress-bar span{
-    width:85%;
+    width:50%;
 }
 
 .skill-item.item2 .box:nth-child(1) .progress-bar span{
@@ -501,7 +498,7 @@ header #menu-btn:hover{
 }
 
  .skill-item.item2 .box:nth-child(3) .progress-bar span{
-    width:50%;
+    width:30%;
 }
 .skill-item.item3 .box:nth-child(1) .progress-bar span{
     width:10%;
@@ -519,83 +516,7 @@ header #menu-btn:hover{
 
 
 
-/*--------------------- 6- Qualification Area CSS (Start) ---------------------*/
-.qualification .box-container{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 4rem;
-}
-
-.education, .experience{
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 40rem;
-        flex: 1 1 40rem;
-}
-
-.experience-item{
-    position: relative;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 40rem;
-        flex: 1 1 40rem;
-    padding: 0 3rem 2rem 3rem;
-    border-left: 0.2rem solid var(--purple);
-    margin-left: 2rem;
-}
-
-.experience-item i{
-    position: absolute;
-    top: 0; 
-    left: -2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:var(--white);
-    background:var(--purple);
-}
-
-.experience-item .content{
-    border-radius: 0.5rem;
-    padding: 1rem 2rem;
-    border-left: 2rem;
-}
-
-.experience-item span{
-    background: #222;
-    color: var(--white);
-    padding: 0.5rem 1.5rem;
-    font-size: 1.8rem;
-    border-radius: 50rem;
-}
-
-.experience-item h3{
-    font-size: 2.5rem;
-    color: var(--white);
-    padding: 2rem 0;
-}
-
-.experience-item p{
-    color: var(--grey);
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-}
-
-/*--------------------- 6- Qualification Area CSS (End) ---------------------*/
-
-
-
-/*--------------------- 7- Services Area CSS (Start) ---------------------*/
+/*--------------------- 6- Services Area CSS (Start) ---------------------*/
 .service .box-container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -651,11 +572,11 @@ header #menu-btn:hover{
     color: var(--white);
 }
 
-/*--------------------- 7- Services Area CSS (End) ---------------------*/
+/*--------------------- 6- Services Area CSS (End) ---------------------*/
 
 
 
-/*--------------------- 8- Portfolio Area CSS (Start) ---------------------*/
+/*--------------------- 7- Project Area CSS (Start) ---------------------*/
 .controls{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -839,11 +760,11 @@ header #menu-btn:hover{
     opacity: 0;
 }
 
-/*--------------------- 8- Portfolio Area CSS (End) ---------------------*/
+/*--------------------- 7- Project Area CSS (End) ---------------------*/
 
 
 
-/*--------------------- 9- Contact Area CSS (Start) ---------------------*/
+/*--------------------- 8- Contact Area CSS (Start) ---------------------*/
 .contact .alert{
     font-size: 2rem;
     color: var(--purple);
@@ -964,11 +885,11 @@ header #menu-btn:hover{
     margin-top: 1rem;
 }
 
-/*--------------------- 9- Contact Area CSS (End) ---------------------*/
+/*--------------------- 8- Contact Area CSS (End) ---------------------*/
 
 
 
-/*--------------------- 10- Footer Area CSS (Start) ---------------------*/
+/*--------------------- 9- Footer Area CSS (Start) ---------------------*/
 footer{
     background-color: var(--purple);
     padding: 2rem 0;
@@ -1018,11 +939,11 @@ footer .content p span{
     color: var(--black);
 }
 
-/*--------------------- 10- Footer Area CSS (End) ---------------------*/
+/*--------------------- 9- Footer Area CSS (End) ---------------------*/
 
 
 
-/*--------------------- 11- Scroll-Top (Start) ---------------------*/
+/*--------------------- 10- Scroll-Top (Start) ---------------------*/
 .scroll-top{
     position: fixed;
     bottom: 1rem;
@@ -1056,4 +977,4 @@ footer .content p span{
     color:var(--black);
   }
 
-/*--------------------- 11- Scroll-Top (End) ---------------------*/
+/*--------------------- 10- Scroll-Top (End) ---------------------*/
